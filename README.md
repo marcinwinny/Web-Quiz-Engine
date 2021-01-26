@@ -51,10 +51,10 @@ Default value is 10 quizzes per page, starting from first page, sorted by id.
 For getting 5 quizzes per page, page 2:
 
 ```sh
-GET: /api/quizzes?size=5&page=2
+GET: /api/quizzes?size=5&page=1
 ```
 
-### Get all completions of quizzed with paging
+### Get all completions of quizzes with paging
 
 Shows all completions of quizzes by current user. For one quiz there can be multiple completions.
 
