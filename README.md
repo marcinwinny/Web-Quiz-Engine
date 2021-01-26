@@ -7,9 +7,9 @@ H2 database was used to store all the data.
 
 API supports creating, getting, solving and deleting quizzes. Each quiz is described by id, title, text and array of correct answers. Answer is not visible in the API.
 
-To perform any actions with quizzes user have to be registrater and then authorized via HTTP Basic Auth. Otherwise, the service returns the `HTTP 401 (Unauthorized)` code.
+To perform any actions with quizzes user have to be registrated and then authorized via HTTP Basic Auth. Otherwise, the service returns the `HTTP 401 (Unauthorized)` code.
 
-#Examples
+# Examples
 
 ### Register new user
 ```sh
